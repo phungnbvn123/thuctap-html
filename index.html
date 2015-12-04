@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Learning Bootstrap </title>
+  <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet" >
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="../jquery-1.11.3.min.js"></script>
+  <script src="../bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+<!-- navbar -->
+<div class="container" id="top1">
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#" style="margin:auto"><img src="img/logo.png"></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    
+      <ul class="nav navbar-nav navbar-right new">
+        <li><a href="#slide" style="line-height: 250%;">Home</a></li>
+        <li><a href="#round-table" style="line-height: 250%;">Services</a></li>
+        <li><a href="#portfolio1" style="line-height: 250%;">Portfolio</a></li>
+        <li><a href="#the-team" style="line-height: 250%;">Team</a></li>
+        <li><a href="#" style="line-height: 250%;">Blog</a></li>
+        <li><a href="#footer" style="line-height: 250%;">Contact</a></li>
+        
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<div class="heading">
+  <p></p>
+</div>
+</div>
+<!-- navbar end -->
+
+<!-- slide    -->
+<div id="slide" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators" style="z-index:0">
+    <li data-target="#slide" data-slide-to="0" class="active"></li>
+    <li data-target="#slide" data-slide-to="1"></li>
+  </ol>
+ 
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" style="padding:0" id="bg-slide">
+    <div class="item active" style="text-align: center;color:white;">     
+        <h2 style="font-size:8vmin;padding: 10% 0% 0% 0%;">This is the main heading</h2>
+        <p style="font-size:4vmin;padding-top: 5%;">Lorem ipsum is simply dummy text of the printing
+        </p>
+        <p style="padding:5% 0 6% 0"><a href="#" id="learn-more">Learn more</a></p>
+    </div>
+       <div class="item" style="text-align: center;color:white;">     
+        <h2 style="font-size:8vmin;padding: 10% 0% 0% 0%;">This is the main heading</h2>
+        <p style="font-size:4vmin;padding-top: 5%;">Lorem ipsum is simply dummy text of the printing
+        </p>
+        <p style="padding:5% 0 6% 0"><a href="#" id="learn-more">Learn more</a></p>
+    </div>
+   <!--  <div class="item">
+        <p style="text-align: center;font-size:10vmin;color: white;margin: 16% 0% 15% 0%;">Nothing</p>
+    </div>
+ -->  </div>
+ 
+  <!-- Controls -->
+  <a class="left carousel-control" href="#slide" role="button" data-slide="prev" style="background-image: none">
+    <img src="img/prev.png" style="margin-top: 100%">
+  </a>
+  <a class="right carousel-control" href="#slide" role="button" data-slide="next" style="background-image: none">
+    <img src="img/next.png" style="margin-top: 100%">
+  </a>
+</div> <!-- Carousel -->
+<!-- slide end-->
+
+
+
+<!--round table -->
+<div class="container" style="margin-bottom: 5%;margin-top:5%;" id="round-table">
+  <div class="row show-grid">   
+    <div class="col-xs-6 col-sm-3">
+      <img src="img/round1.png" id="round">
+      <h1>
+        <p id="roundtext">Custom Design</p>
+        <p id="text-in-round">Lorem ipsum is simply dummy text of the printing and typesetting industry.Lorem ipsum has been</p>
+        <a href="#" id="readmore2">Read More</a>
+      </h1>
+    </div>
+    <div class="col-xs-6 col-sm-3">
+      <img src="img/round2.png" id="round">
+      <h1>
+        <p id="roundtext">Web Design</p>
+        <p id="text-in-round">Lorem ipsum is simply dummy text of the printing and typesetting industry.Lorem ipsum has been</p>
+        <a href="#" id="readmore2">Read More</a>
+      </h1>
+    </div>
+    <div class="col-xs-6 col-sm-3">
+      <img src="img/round3.png" id="round">
+      <h1>
+        <p id="roundtext">Blog Pages</p>
+        <p id="text-in-round">Lorem ipsum is simply dummy text of the printing and typesetting industry.Lorem ipsum has been</p>
+        <a href="#" id="readmore2">Read More</a>
+      </h1>
+    </div>
+    <div class="col-xs-6 col-sm-3">
+      <img src="img/round4.png" id="round">
+      <h1>
+        <p id="roundtext">Mobile Friendly </p>
+        <p id="text-in-round">Lorem ipsum is simply dummy text of the printing and typesetting industry.Lorem ipsum has been</p>
+        <a href="#" id="readmore2">Read More</a>
+      </h1>
+    </div>
+  </div>
+</div>
+<!-- table end -->
+
+
+
+
+
+<!-- portfolio -->
+<div style="background: #eeeeee; padding-bottom: 3%;" id="portfolio1">
+  <div class="row-show-grid container" id="port" style="text-align: center">
+    <h1 style="text-align: center;padding: 2% 0% 3% 0%;">Portfolio</h1>
+      <div class="col-xs-4 col-sm-4 col-md-4">
+        <img src="img/gd1.jpg">
+      </div>
+      <div class="col-xs-4 col-sm-4 col-md-4">
+        <img src="img/gd2.jpg">
+      </div>
+      <div class="col-xs-4 col-sm-4 col-md-4">
+        <img src="img/gd3.jpg">
+      </div>
+      <div class="col-xs-4 col-sm-4 col-md-4">
+        <img src="img/gd4.jpg">
+      </div>
+      <div class="col-xs-4 col-sm-4 col-md-4">
+        <img src="img/gd5.jpg">
+      </div>
+      <div class="col-xs-4 col-sm-4 col-md-4">
+        <img src="img/gd6.jpg">
+      </div>
+      
+           <a href="#" id="port-button">See it all</a>    
+  </div>
+  
+</div>
+<!-- portfolio end -->
+
+<!-- The team -->
+<div id="the-team" style="margin-bottom: 5%;">
+  <h1 style="text-align: center;margin: 6%;">The Team</h1>
+  <div class="row-show-grid picture1 container" style="text-align: center">
+    <div class="col-xs-6 col-sm-3">
+      <img src="img/pic4.jpg" style="max-width: 100%;height: auto;">
+      <h5 style="font-weight: bold;color: #44c0c2;font-size: 125%;line-height:200%;">Adrian Thomas</h5>
+      <p style="font-weight:bold">CEO&Founder</p>
+      <p>Lorem ipsum is simply dummy text of the printing and typesetting industry.Lorem ipsum has been</p>
+    </div>
+    <div class="col-xs-6 col-sm-3">
+      <img src="img/pic2.jpg" style="max-width: 100%;height: auto;">
+      <h5 style="font-weight: bold;color: #44c0c2;font-size: 125%;line-height:200%;">Narate Ketram</h5>
+      <p style="font-weight:bold">Creative Diector</p>
+      <p>Lorem ipsum is simply dummy text of the printing and typesetting industry.Lorem ipsum has been</p>
+    </div>
+    <div class="col-xs-6 col-sm-3">
+      <img src="img/pic3.jpg" style="max-width: 100%;height: auto;">
+      <h5 style="font-weight: bold;color: #44c0c2;font-size: 125%;line-height:200%;">Fernando Comet</h5>
+      <p style="font-weight:bold">CEO&Founder</p>
+      <p>Lorem ipsum is simply dummy text of the printing and typesetting industry.Lorem ipsum has been</p>
+    </div>
+    <div class="col-xs-6 col-sm-3">
+      <img src="img/pic1.jpg"  style="max-width: 100%;height: auto;">
+      <h5 style="font-weight: bold;color: #44c0c2;font-size: 125%;line-height:200%;">Adedayo Saheed</h5>
+      <p style="font-weight:bold">Creative Diector</p>
+      <p>Lorem ipsum is simply dummy text of the printing and typesetting industry.Lorem ipsum has been</p>
+    </div>
+  </div>
+</div>
+<!-- THe team end -->
+
+
+
+
+
+
+<!-- cost -->
+<div style="background:#eeeeee;">
+  <div class="container">  
+    <div style="text-align: center; margin-top:7%;">
+        <div class="col-sm-4" style="padding-bottom: 10%">
+          <div class="col-sm-12 cost-line1">
+            <p>Basic</p>
+          </div>
+          <div class="col-sm-12 cost-line2">
+            <p>$5.01/month</p>
+          </div>
+          <div class="col-sm-12 cost-norline">
+            <p>Lorem ipsum</p>
+          </div>
+          <div class="col-sm-12 cost-norline">
+            <p>Dolor sitamet, Consect</p>
+          </div>
+          <div class="col-sm-12 cost-norline">
+            <p>Adipiscing elit</p>
+          </div>
+          <div class="col-sm-12 cost-norline">
+            <p>Proin commondo turips</p>
+          </div>
+          <div class="col-sm-12 cost-norline">
+            <p>Laws pulvinarvel</p>
+          </div>
+          <div class="col-sm-12 cost-norline">
+            <p>Prnare nisi pretinum</p>           
+          </div>   
+          <div class="col-sm-12 cost-norline">
+            <p style="border-top:none;padding-bottom: 7%;"><a href="#" id="buy-now">Buy now</a></p>
+          </div>      
+        </div>
+
+         <div class="col-sm-4" style="padding-bottom: 10%">
+          <div class="col-sm-12 cost-line1">
+            <p>Pro</p>
+          </div>
+          <div class="col-sm-12 cost-line2">
+            <p>$10.01/month</p>
+          </div>
+          <div class="col-sm-12 cost-norline">
+            <p>Lorem ipsum</p>
+          </div>
+          <div class="col-sm-12 cost-norline">
+            <p>Dolor sitamet, Consect</p>
+          </div>
+          <div class="col-sm-12 cost-norline">
+            <p>Adipiscing elit</p>
+          </div>
+          <div class="col-sm-12 cost-norline">
+            <p>Proin commondo turips</p>
+          </div>
+          <div class="col-sm-12 cost-norline">
+            <p>Laws pulvinarvel</p>
+          </div>
+          <div class="col-sm-12 cost-norline">
+            <p>Prnare nisi pretinum</p>
+          </div>
+          <div class="col-sm-12 cost-norline">
+            <p style="border-top:none;padding-bottom: 7%;"><a href="#" id="buy-now">Buy now</a></p>
+          </div>      
+        </div>
+
+         <div class="col-sm-4" style="padding-bottom: 10%;">
+          <div class="col-sm-12 cost-line1">
+            <p>Premium</p>
+          </div>
+          <div class="col-sm-12 cost-line2">
+            <p>$20.01/month</p>
+          </div>
+          <div class="col-sm-12 cost-norline">
+            <p>Lorem ipsum</p>
+          </div>
+          <div class="col-sm-12 cost-norline">
+            <p>Dolor sitamet, Consect</p>
+          </div>
+          <div class="col-sm-12 cost-norline">
+            <p>Adipiscing elit</p>
+          </div>
+          <div class="col-sm-12 cost-norline">
+            <p>Proin commondo turips</p>
+          </div>
+          <div class="col-sm-12 cost-norline">
+            <p>Laws pulvinarvel</p>
+          </div>
+          <div class="col-sm-12 cost-norline">
+            <p>Prnare nisi pretinum</p>
+          </div>
+          <div class="col-sm-12 cost-norline">
+            <p style="border-top:none;padding-bottom: 7%;"><a href="#" id="buy-now">Buy now</a></p>
+          </div>      
+        </div>
+    </div>
+  </div>  
+</div>
+<!-- cost end -->
+
+
+<!-- What client say --> 
+<div id="carousel-example-generic" class="carousel slide container" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>   
+  </ol>
+ 
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" style="padding:0">
+    <div class="item active">     
+        <h1 style="text-align: center">
+    <p style="font-size:6vmin;margin: 10% 0% 5% 0%;">What Clients Say</p>
+    <p style="font-size:3vmin;margin: 0% 15% 2% 15%;">Lorem ipsum is simply dummy text of the printing and typesetting industry.Lorem ipsum has been the printing and typesetting industry's standard dummy text ever since the 500,s when an unknown printer took a gellery of type.</p>
+    <p style="font-size:3vmin;padding-bottom: 8%;">John Dove</p>
+    </h1>       
+    </div>
+  </div>
+ 
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev" style="background-image: none">
+    <img src="img/text_img.png" style="margin-top: 120%" id="clip-right">
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next" style="background-image: none">
+    <img src="img/text_img_right.png" style="margin-top:120%;" >
+  </a>
+</div>
+<!-- What client say end -->
+</body>
+
+<footer style="background:#181616 url(img/cbg.png)" id="footer">
+  <h1 style="font-size: 300%;text-align: center;color: white;padding: 5% 0% 4% 1%;">Contact Us</h1> 
+  <div class="show-grid container">
+    <!-- left-part -->
+    <div class="col-sm-6">
+      <h1 style="font-size: 240%;color:white;">Get in touch with us</h1>
+      <p style="color:#4b6666;font-size: 111%;line-height: 200%;">Lorem ipsum is simply dummy text of the printing and typesetting industry.Lorem ipsum has been the printing and typesetting industry.</p>
+        <!-- icon -->
+        <div class="col-sm-12" style="padding:5% 5% 0% 0%;">
+              <a href="https://vi-vn.facebook.com/login/">
+                <img src="img/facebook.png" target="_blank" id="circle-img" style="max-height: 8%;max-width: 8%;">
+              </a>          
+              <a href="https://twitter.com/login/">
+                <img src="img/twitter.png" target="_blank" id="circle-img" style="max-height: 8%;max-width: 8%;">
+              </a>
+              <a href="https://plus.google.com/">
+                <img src="img/google.png" target="_blank" id="circle-img" style="max-height: 8%;max-width: 8%;">
+              </a>
+              <div style="color:#9689B0 ;padding-top:4%;">
+                <p>2345 Setwant natrer, 1234</p>
+                <p>Washington. United States.</p>
+                <p>(401) 1234 567</p>
+                <a href="appstore.com" style="text-decoration: none"><p style="padding-bottom: 17%;color:#9689B0;">info(at)appstore.com</p></a>
+              </div>
+        </div>
+        <!-- icon end -->
+    </div>
+    <!-- left-part end -->
+    <!-- right-part -->
+    <div class="col-sm-6"> 
+      <section>
+        <div class="input-list style-2 clearfix" style="padding-top: 6%">
+          <input type="text" placeholder="Name" style="float:left">
+          <input type="text" placeholder="Email" style="float:right">
+        </div>
+      </section>
+
+      <section>
+        <div class="input-list style-3 clearfix" style="padding-top:5%">
+          <input type="text" placeholder="Message" style="float:left">
+        </div>
+      </section>
+    </div>
+    <a class="pure-button" href="#" id="send">Send</a>
+    
+    <!-- right-part end -->
+  </div>  
+  <a href="#top1" class="element"><img src="img/top_move.png"></a>
+</footer>
+</html>
